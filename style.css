@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body{
+    justify-content: center;
+    background-position: center;
+    background-color: #bddef2;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1{
+   
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: #40464a
+    
+    
+   
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    text-align: center;
+    border: black solid;
+    border-radius: 8px;
+}
+
+select{
+    text-align: center;
+    color: #000000;
+    border: black solid;
+    border-radius: 8px;
+}
+
+
+
+.top-bar{
+    text-align: center;
+    background-color: #102027;
+    color: #ffffff;
+    border: black solid;
+    border-radius: 8px;
+      
+    padding: 5px;
+}
+
+.submission-form{
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 330px;
+}
+
+#bookmark-description{
+    height: auto;
+    width: auto;
+    border: black solid;
+    border-radius: 8px;
+}
+
+.small-bookmark{
+    background-color: #3c6e8f;
+    color: #ffffff;
+    border: black solid;
+    border-radius: 8px;
+    margin: 7px 50px 7px 50px;
+    padding: 10px 2px 10px 4px;
+}
+
+.big-bookmark{
+    background-color: #3c6e8f;
+    color: #ffffff;
+    border: black solid;
+    font-size: 18px;
+    border-radius: 8px;
+    margin: 7px 50px 7px 50px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+input{
+    border-radius: 4px;
+    border: black solid; 
+}
+
+.big-b-button{
+    align-self: flex-end;
+    display: inline-block;
+    margin: 5px;
+}
+
+
+
+.big-bookmark a{
+    text-decoration: none;
+    background-color: white ;
+    color: #000000;
+    border: black solid;
+    border-radius: 8px;
+    height: 30px;
+    width: 60px;
+}
+
+button#deleteMe{
+    text-align: center;
+    height: 35px;
+    width: 60px; 
+}
+
+
+
+
+
+.error-content{
+    background: crimson;
+    border: black solid;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+}
+
+#cancel-error{
+    height: 40px;
+    width: 40px;
+    background: darkred;
+    margin: 10px;
+}
+
+.form-div{
+    flex-direction: column;
+    display: flex;
+    align-items: baseline;
+}
+
+.clip-star {
+    background: gold;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+  }
+
+
+
+  @media all and ( min-width: 850px){
+
+        main{
+            align-items: center;
+        }
+        .top-bar{
+            margin: 10px 100px 10px 100px;
+            display: flex;
+            justify-content: space-around;
+            width: 600px;
+        }
+        .big-bookmark{
+          margin: 10px 100px 10px 100px;
+          width: 600px;
+        }
+        .small-bookmark{
+          margin: 10px 100px 10px 100px;
+          width: 600px; 
+        }
+        .submission-form{
+            width: 600px;
+        }
+        h1{
+            margin: 10px 100px 10px 100px; 
+        }
+  }
